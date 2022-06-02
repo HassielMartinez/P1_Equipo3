@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piixitas | Galeria</title>
+    <link rel="shortcut icon" href="img/p.ico.ico" type="image/x-icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/62bfe481d8.js" crossorigin="anonymous"></script>
+
+    <!-- PARA GALERÍA 2--> 
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="venobox/dist/venobox.min.css"/> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-principal fixed-top">
+      <div class="container">
+        <a 
+        class="navbar-brand" href="index.html">
+        <img src="img/p.ico.ico" alt=""style="width:40px;" class="rounded-pill">
+        </a> <!--Antes del elemento "a" ira texto o una imagen que funciona como enlace-->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a> <!--Si o Si tiene que estar integrado el index.html para que el servidor lo detecte-->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#servicios">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="preguntas_frecuentes.html">Preguntas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactos</a>
+            </li>
+          </ul>
+        </div>
+    
+      </div>
+    </nav>
+
+</header> 
+
+
+<main>
+    <!--GALERIA 1-->
+    <div class="container text-center mt-5 pt-5" id="portfolio1">
+        <div class="row">
+            <div class="col-lg-12 py-5">
+                <h1>CONOCE MÁS DE NOSOTROS</h1>
+            </div>            
+        </div>
+
+        <!--GALERIA 1-->
+        <div class="row">
+          <!--IMG 1-->
+          <div class="col-lg-4 col-sm-6 mb-4"> 
+            <div class="portfolio-item"> 
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1"> 
+                <div class="portfolio-hover"> 
+                  <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div> 
+                </div> 
+                <img class="img-fluid" src="img/j1.jpg" alt="" /> 
+              </a> 
+              <!--Esto es si se quiere texto-->
+              <div class="portfolio-caption"> 
+                <div class="portfolio-caption-heading">JUEGA EN COMPAÑÍA</div> 
+                <div class="portfolio-caption-subheading text-muted"></div> 
+              </div> 
+            </div> 
+          </div> 
+
+          <div class="modal fade text-center" id="portfolioModal1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1"> 
+            <div class="modal-dialog modal-dialog-centered modal-xl"> 
+              <div class="modal-content"> 
+                <div class="modal-header"> 
+                   <h5 class="modal-title" id="exampleModalToggleLabel">Juega en compañia</h5> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div> 
+                  <!--Aqui va el contenido del modal-->
+                  <div class="modal-body"> 
+                    <div class="row justify-content-center"> 
+                      <div class="col-lg-8"> 
+                          <img src="img/j1.jpg" alt="" width="100%"> 
+                      </div>
+                      <div class="col-lg-4"> 
+                        <h1>DISFRUTA CON AMIGOS</h1> 
+                        <p>Adquiere lo que necesites para esas reuniones llenas de diversión con tus amistades. Se el mejor anfitrión para todas las fiestas</p> 
+                      </div> 
+                    </div>  
+                  </div> 
+                  <div class="modal-footer"> 
+                    <a href="#portfolioModal5" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a> 
+                    <a href="#portfolioModal2" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>  
+                  </div> 
+                </div> 
+              </div> 
+            </div> 
+
+            <!--IMG 2-->
+            <div class="col-lg-4 col-sm-6 mb-4"> 
+              <div class="portfolio-item"> 
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover"> 
+                    <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div> 
+                  </div> 
+                  <img class="img-fluid" src="img/j2.jpg" alt="" /> 
+                </a> 
+                <div class="portfolio-caption"> 
+                  <div class="portfolio-caption-heading">COMPARTE TU EXPERIENCIA</div> 
+                  <div class="portfolio-caption-subheading text-muted"> </div> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="modal fade text-center" id="portfolioModal2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1"> 
+              <div class="modal-dialog modal-dialog-centered modal-xl"> 
+                <div class="modal-content"> 
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Comparte tu experiencia</h5> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div> 
+                  <div class="modal-body"> 
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8"> 
+                        <a href="#portfolioModal2" data-bs-toggle="modal" data-bs-dismiss="modal"> 
+                          <img src="img/j2.jpg" alt="" width="100%" > 
+                        </a> 
+                      </div>
+                      <div class="col-lg-4"> 
+                        <h1>VIVE SIEMPRE ALGO NUEVO</h1> 
+                        <p>Disfruta siempre de los nuevos lanzamientos de la plataforma que desees, comparte tus logros opiniones y más con la comunidad. No te quedes atrás y encuentra a más personas que comparten tu pasión por los videojuegos</p> 
+                      </div> 
+                    </div>  
+                  </div> 
+                  <div class="modal-footer"> 
+                    <a href="#portfolioModal1" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a> 
+                    <a href="#portfolioModal3" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>  
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+
+            <!--IMG 3-->
+            <div class="col-lg-4 col-sm-6 mb-4"> 
+              <div class="portfolio-item"> 
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                  <div class="portfolio-hover"> 
+                    <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div> 
+                  </div> 
+                  <img class="img-fluid" src="img/j3.jpg" alt="" /> 
+                </a> 
+                <div class="portfolio-caption"> 
+                  <div class="portfolio-caption-heading">INNOVACION GAMING</div> 
+                  <div class="portfolio-caption-subheading text-muted"></div> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="modal fade text-center" id="portfolioModal3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1"> 
+              <div class="modal-dialog modal-dialog-centered modal-xl"> 
+                <div class="modal-content"> 
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Innovación gaming</h5> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div> 
+                  <div class="modal-body"> 
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8"> 
+                        <a href="#portfolioModal3" data-bs-toggle="modal" data-bs-dismiss="modal"> 
+                          <img src="img/j3.jpg" alt="" width="100%" > 
+                        </a> 
+                      </div>
+                      <div class="col-lg-4"> 
+                        <h1>VIVE LA NUEVA GENERACIÓN AL DÍA</h1> 
+                        <p>Encuentra esa nueva consola de la que te enamoraste, compra ese control con nuevas tecnologías e impresiona a tus amigos</p> 
+                      </div> 
+                    </div>  
+                  </div> 
+                  <div class="modal-footer"> 
+                    <a href="#portfolioModal2" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a> 
+                    <a href="#portfolioModal4" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>  
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+
+            <!--IMG 4-->
+            <div class="col-lg-6 col-sm-6 mb-4"> 
+              <div class="portfolio-item"> 
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                  <div class="portfolio-hover"> 
+                    <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div> 
+                  </div> 
+                  <img class="img-fluid" src="img/j4.jpg" alt="" /> 
+                </a> 
+                <div class="portfolio-caption"> 
+                  <div class="portfolio-caption-heading">NUESTROS PRODUCTOS</div> 
+                  <div class="portfolio-caption-subheading text-muted"></div> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="modal fade text-center" id="portfolioModal4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1"> 
+              <div class="modal-dialog modal-dialog-centered modal-xl"> 
+                <div class="modal-content"> 
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Nuestros productos</h5> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div> 
+                  <div class="modal-body"> 
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8"> 
+                        <a href="#portfolioModal4" data-bs-toggle="modal" data-bs-dismiss="modal"> 
+                          <img src="img/j4.jpg" alt="" width="100%" > 
+                        </a> 
+                      </div>
+                      <div class="col-lg-4"> 
+                        <h1>MÁS DE LO QUE CREES</h1> 
+                        <p>No te limites solo a comprar tecnología, tenemos gadgets y merch para todas los gustos de tu personaje favorito para que lo lleves siempre contigo, solo busca y encontrarás.</p> 
+                      </div> 
+                    </div>  
+                  </div> 
+                  <div class="modal-footer"> 
+                    <a href="#portfolioModal3" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a> 
+                    <a href="#portfolioModal5" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>  
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+
+            <!--IMG 5-->
+            <div class="col-lg-6 col-sm-6 mb-4"> 
+              <div class="portfolio-item"> 
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                  <div class="portfolio-hover"> 
+                    <div class="portfolio-hover-content"><i class="fa-solid fa-plus"></i></div> 
+                  </div> 
+                  <img class="img-fluid" src="img/j5.jpg" alt="" /> 
+                </a> 
+                <div class="portfolio-caption"> 
+                  <div class="portfolio-caption-heading">LOS MEJORES COMPONENTES</div> 
+                  <div class="portfolio-caption-subheading text-muted"></div> 
+                </div> 
+              </div> 
+            </div> 
+            <div class="modal fade text-center" id="portfolioModal5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1"> 
+              <div class="modal-dialog modal-dialog-centered modal-xl"> 
+                <div class="modal-content"> 
+                  <div class="modal-header"> 
+                    <h5 class="modal-title" id="exampleModalToggleLabel">Los mejores componentes</h5> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+                  </div> 
+                  <div class="modal-body"> 
+                    <div class="row justify-content-center">
+                      <div class="col-lg-8"> 
+                        <a href="#portfolioModal5" data-bs-toggle="modal" data-bs-dismiss="modal"> 
+                          <img src="img/j5.jpg" alt="" width="100%" > 
+                        </a> 
+                      </div>
+                      <div class="col-lg-4"> 
+                        <h1>PARA GUSTOS COLORES</h1> 
+                        <p>No te preocupes si has dejado de lado las consolas para disfrutar de los videojuegos en tu PC Master Race, contamos con los mejores periféricos para que juegues con la mayor comodidad y la eficiencia que requiere un jugador habilidoso como tú.</p> 
+                      </div> 
+                    </div>  
+                  </div> 
+                  <div class="modal-footer"> 
+                    <a href="#portfolioModal4" data-bs-toggle="modal" data-bs-dismiss="modal">Anterior</a> 
+                    <a href="#portfolioModal1" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</a>  
+                  </div> 
+                </div> 
+              </div> 
+            </div>
+  
+        </div>
+
+
+
+    <!-- Separador con video  --> 
+
+    <section class="container-fluid px-0 position-relative bg-alter" style="max-height: 100vh; overflow: hidden;">     
+
+      <div class="d-none d-md-block"> 
+
+          <!-- Con video responsivo --> 
+
+          <video loop autoplay muted controlsList="nodownload nofullscreen noremoteplayback" class="w-100 h-auto " title="Presentación biografía" id="video">   
+
+            <source src="video/vid1.mp4" type="video/mp4" /> 
+
+            <span>OH NOES - you don't support html5 video!</span> 
+
+          </video> 
+
+          <!-- Con video NO responsivo  
+
+          <video loop autoplay controlsList="nodownload nofullscreen noremoteplayback" class="min-vw-100 h-auto">   
+
+            <source src="videos/anim1webm.webm" type="video/webm" /> 
+
+            <span>OH NOES - you don't support html5 video!</span> 
+
+          </video> 
+
+          --> 
+
+      </div> 
+
+      <div class="row position-absolute" style="top:40%; left: 70%; z-index: 5"> 
+
+                  <div class="col-lg-12 col-sm-12 d-flex flex-wrap align-content-center"> 
+
+              <div class="mx-auto"> 
+
+                <!--  <a href="" class="boton">[ Biografía_ ]</a>  --> 
+
+                  <!-- Estructura de contenido --> 
+
+              </div> 
+
+          </div> 
+
+      </div> 
+
+    </section> 
+
+ 
+
+
+
+
+</main>
+
+
+<footer class="text-center">
+    <div class="container-fluid bg-negro text-white p-5 text-center">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3>INICIAR UN PROYECTO</h3>
+          <p>Envianos una propuesta</p>
+          <a href="mailto:ha.martinezromero@ugto.mx">ha.martinezromero@ugto.mx</a>
+        </div>
+        <div class="col-lg-4">
+          <h3>ETIQUETAS</h3>
+          <dl>
+          <dt><a href="preguntas_frecuentes.html">Preguntas Frecuentes</a></dt>
+          <dt><a href="proyectos.html#galeria">Galeria</a></dt>
+          <dt><a href="nosotros.html#suscripciones">Suscripciones</a></dt>
+          <dt><a href="preguntas_frecuentes.html#testimonios">Testimonios</a></dt>
+          </dl>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-around align-self-center">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div>
+    <h6 class="py-2">Piixitas | Pato Boys 2022</h6>
+    </div>
+  </footer>   
+  
+  </body>
+  </html>
